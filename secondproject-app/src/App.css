@@ -1,0 +1,99 @@
+body {
+  font-family: "Georgia", Georgia;
+  color: rgb(92, 181, 255);
+  font-size: 20px;
+}
+
+.wrapper {
+  background: linear-gradient(to right, #2287e6, #4081fa);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 90vh;
+  background: rgb(65, 169, 255);
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-container {
+  font-family: Georgia;
+  height: 45vh;
+  background: url("img/bg.png") center center no-repeat;
+  background-size: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.title-container__title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-family: "Georgia", Georgia;
+}
+
+.form-container {
+  font-family: Georgia;
+  background-color: rgb(65, 169, 255);
+  height: 60vh;
+  color: #fff;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #b1cdec;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #dce5ee inset;
+    -webkit-text-fill-color: #fff;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #346aff;
+  color: #fff;
+  font-weight: 100;
+  font-family: "Georgia", Georgia;
+}
+
+button:active {
+  outline: none;
+}
+
+.weather__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-family: Georgia;
+}
